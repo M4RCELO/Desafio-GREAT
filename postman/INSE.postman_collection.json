@@ -1,0 +1,164 @@
+{
+	"info": {
+		"_postman_id": "208441ac-50f2-456f-9fa9-fefba0f32e24",
+		"name": "INSE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16085196"
+	},
+	"item": [
+		{
+			"name": "Estados",
+			"item": [
+				{
+					"name": "Estados INSE Classificação",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/estados/Nível III",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"estados",
+								"Nível III"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Estados",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/estados",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"estados"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Municipios",
+			"item": [
+				{
+					"name": "Municipios",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/municipios/RO",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"municipios",
+								"RO"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Municipios INSE Classificação",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/municipios/RO/Nível III",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"municipios",
+								"RO",
+								"Nível III"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Escolas",
+			"item": [
+				{
+					"name": "Escolas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/escolas/RO",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"escolas",
+								"RO"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Info Escolas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/escolas/RO/EEEFM MANUEL BANDEIRA",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"escolas",
+								"RO",
+								"EEEFM MANUEL BANDEIRA"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
